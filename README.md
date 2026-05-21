@@ -117,7 +117,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](Images/skills_demand.png)  
+![Trending Top Skills for Data Analysts in the US](Images/Top_skills.png)  
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights:
