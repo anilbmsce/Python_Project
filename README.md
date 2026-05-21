@@ -145,7 +145,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions of Data Jobs in the US](images/Salary_Distributions_of_Data_Jobs_in_the_US.png)  
+![Salary Distributions of Data Jobs in the US](Images/Highest paid and most in-demand skills.png)  
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Insights
@@ -209,7 +209,7 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US.png)    
+![Most Optimal Skills for Data Analysts in the US](Images/Highest paid and most in-demand skills.png)    
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 #### Insights:
@@ -220,40 +220,7 @@ plt.show()
 
 - Skills such as `Python`, `Tableau`, and `SQL Server` are towards the higher end of the salary spectrum while also being fairly common in job listings, indicating that proficiency in these tools can lead to good opportunities in data analytics.
 
-### Visualizing Different Techonologies
 
-Let's visualize the different technologies as well in the graph. We'll add color labels based on the technology (e.g., {Programming: Python})
-
-#### Visualize Data
-
-```python
-from matplotlib.ticker import PercentFormatter
-
-# Create a scatter plot
-scatter = sns.scatterplot(
-    data=df_DA_skills_tech_high_demand,
-    x='skill_percent',
-    y='median_salary',
-    hue='technology',  # Color by technology
-    palette='bright',  # Use a bright palette for distinct colors
-    legend='full'  # Ensure the legend is shown
-)
-plt.show()
-
-```
-
-#### Results
-
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](Images/Median salary vs Percentage skill.png)  
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
-
-#### Insights:
-
-- The scatter plot shows that most of the `programming` skills (colored blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the data analytics field.
-
-- The database skills (colored orange), such as Oracle and SQL Server, are associated with some of the highest salaries among data analyst tools. This indicates a significant demand and valuation for data management and manipulation expertise in the industry.
-
-- Analyst tools (colored green), including Tableau and Power BI, are prevalent in job postings and offer competitive salaries, showing that visualization and data analysis software are crucial for current data roles. This category not only has good salaries but is also versatile across different types of data tasks.
 
 # What I Learned
 
