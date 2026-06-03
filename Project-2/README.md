@@ -66,13 +66,13 @@ An end-to-end exploratory data analysis of the S&P 500 stock market dataset cove
 ![AMZN Closing Price Trend](Images/AMZN_closing_trend.png)
 
 ### 2. Total Trading Volume per Year (Annotated Bar Chart)
-> Bar chart using NumPy arrays with exact volume values annotated on each bar
+1[Total Trading Volume per Year](Images/volume_by_year.png)
 
 ### 3. Correlation Heatmap — OHLCV Columns
-> Seaborn heatmap showing correlation between Open, High, Low, Close, and Volume
+![Correlation Heatmap](Images/correlation_heatmap.png)
 
 ### 4. AMZN Closing Prices Boxplot by Year
-> Seaborn boxplot visualizing AMZN price spread and outliers for each year
+![AMZN Closing Prices Boxplot](Images/aapl_boxplot_by_year.png)
 
 ---
 
