@@ -66,7 +66,7 @@ An end-to-end exploratory data analysis of the S&P 500 stock market dataset cove
 ![AMZN Closing Price Trend](Images/AMZN_closing_trend.png)
 
 ### 2. Total Trading Volume per Year (Annotated Bar Chart)
-1[Total Trading Volume per Year](Images/volume_by_year.png)
+![Total Trading Volume per Year](Images/volume_by_year.png)
 
 ### 3. Correlation Heatmap — OHLCV Columns
 ![Correlation Heatmap](Images/correlation_heatmap.png)
