@@ -63,7 +63,7 @@ An end-to-end exploratory data analysis of the S&P 500 stock market dataset cove
 ## 📊 Visualizations
 
 ### 1. AMZN Closing Price Trend (5 Years)
-> Line chart showing Amazon's closing price movement over 5 years with title, axis labels, and grid
+![AMZN Closing Price Trend](Images/AMZN_closing_trend.png)
 
 ### 2. Total Trading Volume per Year (Annotated Bar Chart)
 > Bar chart using NumPy arrays with exact volume values annotated on each bar
